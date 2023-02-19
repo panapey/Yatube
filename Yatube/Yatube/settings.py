@@ -30,7 +30,10 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# anfisa/settings.py
+
 INSTALLED_APPS = [
+    'post.apps.PostConfig',  # Добавленная запись
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
