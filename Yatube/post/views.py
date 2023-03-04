@@ -31,3 +31,13 @@ def group_posts(request, slug):
 # │    │   └── footer.html
 # │    └──  base.html
 # └──  manage.py
+
+# anfisa
+# ├── anfisa
+# ├── ice_cream
+# ├── static  # Директория для статических файлов проекта
+# │   ├── img # Директория для изображений
+# │   └── css # Директория для файлов таблиц стилей
+# │       └── bootstrap.min.css
+# ├── templates
+# └── manage.py
